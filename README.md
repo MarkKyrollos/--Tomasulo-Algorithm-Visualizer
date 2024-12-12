@@ -2,4 +2,4 @@
 Mohamed Sabry 90021112
 Mark George 900211436
 
-We support all of the instructions
+We support all of the RISC-V instructions
