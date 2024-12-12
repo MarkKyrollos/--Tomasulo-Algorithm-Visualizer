@@ -3,13 +3,16 @@
 This Tomasulo Algorithm Simulator models a simplified CPU pipeline with reservation stations and dynamic scheduling. It handles data and control hazards while simulating out-of-order execution.
 We support all of the RISC-V instructions.
 
+
 **1. Implementation Description:**
 This Tomasulo Algorithm Simulator models a simplified CPU pipeline with reservation
 stations and dynamic scheduling. It handles data and control hazards while simulating
 out-of-order execution. The code's modularity and configurability make it suitable for
 exploring different CPU designs, though it simplifies memory, register, and branch
 prediction models.
-2. Design Decisions and Assumptions:
+
+
+**2. Design Decisions and Assumptions:**
 The design emphasizes modularity and clarity by separating responsibilities into distinct
 classes and structures. For example, the Instruction class focuses on parsing and
 managing individual instructions, while the FunctionalUnitManager handles reservation
@@ -47,7 +50,9 @@ prediction mechanism is relatively simplistic and may not reflect the complexity
 modern branch prediction algorithms.
 Overall, these assumptions simplify the implementation, focusing on core Tomasulo
 algorithm principles while abstracting more complex architectural details.
-3. Code Analysis
+
+
+**3. Code Analysis**
 This code implements a Tomasulo Algorithm Simulator, which is a hardware-based
 dynamic scheduling method for out-of-order execution in CPUs. The implementation
 simulates functional units, reservation stations, instruction dependencies, memory, and
@@ -91,7 +96,9 @@ their impact on pipeline performance.
 The Instruction class efficiently parses input into components like op, RD,
 RS1, and IMM. The use of helper functions like string_split makes the
 parsing process modular and reusable.
-3. Test Files
+
+
+**4. Test Files**
 For our test files, here are some test cases used for our main program:
 1.
 ADDI R1, R0, 1
