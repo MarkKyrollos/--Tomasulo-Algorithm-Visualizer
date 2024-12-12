@@ -2,8 +2,8 @@
 
 This Tomasulo Algorithm Simulator models a simplified CPU pipeline with reservation stations and dynamic scheduling. It handles data and control hazards while simulating out-of-order execution.
 We support all of the RISC-V instructions.
-**
-1. Implementation Description:**
+
+**1. Implementation Description:**
 This Tomasulo Algorithm Simulator models a simplified CPU pipeline with reservation
 stations and dynamic scheduling. It handles data and control hazards while simulating
 out-of-order execution. The code's modularity and configurability make it suitable for
